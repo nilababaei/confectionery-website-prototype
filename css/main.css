@@ -49,6 +49,10 @@ body {
   width: 40%;
 }
 
+header nav {
+  overflow: hidden;
+}
+
 header h1 {
   font-family: "Abril Fatface", cursive;
   padding-bottom: 1rem;
@@ -75,6 +79,7 @@ li {
 
 a {
   text-decoration: none;
+  font-weight: bold;
   color: black;
   font-size: 1.2rem;
 }
@@ -85,4 +90,36 @@ nav li:hover {
 
 nav a:hover {
   color: #fff;
+}
+
+.story-section {
+  overflow: hidden;
+
+  padding-bottom: .5rem;
+
+  border-width: 3px;
+  border-style: solid;
+  border-color: #000;
+  border-left: none;
+  border-right: none;
+}
+
+h2 {
+  font-family: "Poiret One";
+  text-align: center;
+  margin: 0;
+  margin-top: .5rem;
+}
+
+p {
+  display: inline-block;
+  float: left;
+  margin: 0;
+  margin: .5rem;
+}
+
+.story-icon {
+  display: inline-block;
+  float: right;
+  width: 33.3333%;
 }
