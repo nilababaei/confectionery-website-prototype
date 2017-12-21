@@ -12,8 +12,77 @@ html {
   text-size-adjust: 100%;
 
   font: normal 100%/1.3 "Playfair Display", serif;
+
+  background-color: #fff799;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.main-header {
+  background-color: #cf9494;
+}
+
+.logo-icon {
+  margin: 1rem;
+}
+
+.logo-icon-left {
+  display: inline-block;
+  float: left;
+  width: 40%;
+}
+
+.logo-icon-right {
+  display: inline-block;
+  float: right;
+  width: 40%;
+}
+
+header h1 {
+  font-family: "Abril Fatface", cursive;
+  padding-bottom: 1rem;
+  text-align: center;
+  margin: 0;
+}
+
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  background-color: #c69c6d;
+  text-align: center;
+
+  display: inline-block;
+  float: left;
+  width: 50%;
+
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+
+nav li:hover {
+  background-color: #543518;
+}
+
+nav a:hover {
+  color: #fff;
 }
