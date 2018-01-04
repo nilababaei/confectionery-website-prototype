@@ -309,6 +309,7 @@ footer {
 
   .menu-food {
     font-size: 100%;
+    width: 60%;
   }
 
   .story-icon {
@@ -334,10 +335,6 @@ footer {
   .menu-icon {
     margin-left: 4rem;
     margin-right: 1rem;
-  }
-
-  .menu-food {
-    width: 60%;
   }
 
   figcaption {
