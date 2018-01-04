@@ -436,6 +436,10 @@ footer {
     margin-right: 18rem;
   }
 
+  h1 {
+    padding-top: 5.5rem;
+  }
+
   p {
     margin-left: 24rem;
     margin-right: 24rem;
