@@ -340,4 +340,52 @@ footer {
     width: 60%;
   }
 
+  figcaption {
+    left: 14rem;
+    font-size: 110%
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+  h1 {
+    padding-top: 6rem;
+    font-size: 300%;
+  }
+
+  p {
+    margin: 1rem 15rem;
+  }
+
+  .story-icon {
+    width: 25%;
+  }
+
+  .cause-icon {
+    width: 20%;
+  }
+
+  .menu-icon {
+    margin-left: 8rem;
+  }
+
+  .menu-food {
+    width: 50%;
+  }
+
+  .location-icon {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  figcaption {
+    left: 22rem;
+    font-size: 130%;
+  }
+
 }
