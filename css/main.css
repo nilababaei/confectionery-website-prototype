@@ -181,6 +181,9 @@ p {
   width: 65%;
   font-size: 80%;
   vertical-align: top;
+  background-color: rgba(189, 140, 191, .7);
+  border-radius: .8rem;
+  padding: .5rem;
 }
 
 .food {
@@ -207,12 +210,6 @@ footer {
   padding-left: .5rem;
   background-color: #c69c6d;
   font-size: 70%;
-}
-
-.menu-food {
-  background-color: rgba(189, 140, 191, .7);
-  border-radius: .8rem;
-  padding: .5rem;
 }
 
 @media only screen and (min-width: 25em) {
@@ -563,5 +560,5 @@ footer {
   .location-icon {
     width: 42%;
   }
-  
+
 }
