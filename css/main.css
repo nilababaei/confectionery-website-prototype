@@ -296,6 +296,7 @@ footer {
 
   .menu-food {
     font-size: 100%;
+    width: 63%;
   }
 
   .story-icon {
@@ -308,10 +309,6 @@ footer {
   .cause-icon {
     width: 21%;
     margin-top: .6rem;
-  }
-
-  .menu-food {
-    width: 63%;
   }
 
   .menu-icon {
