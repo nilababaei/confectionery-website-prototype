@@ -53,6 +53,22 @@ header {
   width: 40%;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 1.2rem;
+}
+
+a:hover {
+  color: #6a2f7d;
+}
+
 header nav {
   overflow: hidden;
 
@@ -88,13 +104,6 @@ header li {
   padding: 1rem;
 }
 
-header nav a {
-  text-decoration: none;
-  font-weight: bold;
-  color: black;
-  font-size: 1.2rem;
-}
-
 nav li:hover {
   background-color: #543518;
 }
@@ -105,14 +114,12 @@ nav a:hover {
 
 .story-section {
   overflow: hidden;
-
   border-bottom: none;
 }
 
 section {
   padding-top: .5rem;
   padding-bottom: 1.5rem;
-
   border-width: 3px;
   border-style: solid;
   border-color: #000;
@@ -204,15 +211,6 @@ figcaption {
   text-align: center;
 }
 
-a {
-  text-decoration: none;
-  color: black;
-}
-
-a:hover {
-  color: #6a2f7d;
-}
-
 footer {
   padding-top: .5rem;
   padding-bottom: .5rem;
@@ -224,6 +222,7 @@ footer {
 .food-tag:hover {
   color: #fff799;
 }
+
 @media only screen and (min-width: 25em) {
 
   html {
