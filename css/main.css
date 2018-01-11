@@ -204,6 +204,15 @@ figcaption {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #6a2f7d;
+}
+
 footer {
   padding-top: .5rem;
   padding-bottom: .5rem;
@@ -212,6 +221,9 @@ footer {
   font-size: 70%;
 }
 
+.food-tag:hover {
+  color: #fff799;
+}
 @media only screen and (min-width: 25em) {
 
   html {
@@ -323,6 +335,9 @@ footer {
     background-color: rgba(0, 0, 0, .3);
     border-radius: .8rem;
     padding: .5rem;
+  }
+
+  a {
     color: white;
   }
 
